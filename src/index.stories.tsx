@@ -1,12 +1,15 @@
 import React from 'react';
-import Badge from '';
+import B from '@latoken-component/badge';
 import { ComponentsStory } from 'components/ComponentsStory';
 import { text, number } from '@storybook/addon-knobs';
 import withPropsCombinations from 'react-storybook-addon-props-combinations';
+import { Button } from 'antd';
 
 ComponentsStory.add('Badge', () => (
   <div>
-      <Badge>a</Badge>
+	  <B>{100}</B>
+	  {/*<Badge>{1}</Badge>*/}
+      {/*<Badge>{100}</Badge>*/}
     {/*<div style={{ display: 'none' }}>*/}
       {/*<Badge>{1000}</Badge>*/}
     {/*</div>*/}
